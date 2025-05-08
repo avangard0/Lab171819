@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние ошибки (устанавливается программно) -->
+    <item android:color="@color/red" android:state_selected="true"/>
+    <!-- Фокус -->
+    <item android:color="@color/accent" android:state_focused="true"/>
+    <!-- По умолчанию -->
+    <item android:color="@color/background"/>
+</selector>

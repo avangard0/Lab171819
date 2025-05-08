@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Кастомный стиль для TextInputLayout -->
+<style name="Widget.MyApplication.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+<!-- Цвет подсказки -->
+<item name="hintTextColor">@color/selector_input_field</item>
+    <item name="cornerRadius">8dp</item>
+<!-- Стиль текста ошибки -->
+<item name="errorTextColor">@color/red</item>
+</style>
+</resources>

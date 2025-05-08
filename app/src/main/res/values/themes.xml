@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая тема должна наследоваться от Material Components -->
+    <style name="Base.Theme.MyApplication171819" parent="Theme.MaterialComponents.DayNight">
+        <!-- Фон окна -->
+        <item name="android:windowBackground">@color/accent</item>
+        <item name="materialButtonStyle">@style/Widget.AppCompat.Button</item>
+    </style>
+
+    <!-- Основная тема приложения -->
+    <style name="Theme.MyApplication171819" parent="Base.Theme.MyApplication171819" />
+
+    <!-- Кастомный стиль для TextInputLayout -->
+    <style name="Widget.MyApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <!-- Иконка глаза -->
+        <item name="passwordToggleEnabled">true</item>
+        <item name="passwordToggleDrawable">@drawable/password_toggle</item>
+        <item name="passwordToggleTint">@color/hint</item>
+
+    </style>
+</resources>
